@@ -1,0 +1,40 @@
+/* Mengatur styling dasar untuk tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Mengatur border untuk tabel, header, dan sel */
+table, th, td {
+    border: 1px solid plum;
+}
+
+/* Menambahkan padding dan pengaturan teks */
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Memberikan warna background untuk header tabel */
+th {
+    background-color: #0d5e94;
+}
+
+/* Mengatur gaya untuk judul (h1) */
+h1 {
+    text-align: center;
+    color: #68ab35;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Mengatur responsif untuk tampilan kecil */
+@media screen and (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+
+    th, td {
+        padding: 5px;
+    }
+}
